@@ -1,0 +1,30 @@
+# Laravel
+/vendor
+/node_modules
+/.idea
+/.vscode
+/storage/*.key
+/.fleet
+/.zed
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+
+# Build artifacts
+/public/build
+/public/hot
+/public/storage
+/storage/pail
+npm-debug.log
+yarn-error.log
+
+# OS / editor
+*.swp
+*.swo
+*~
